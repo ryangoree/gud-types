@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "include": ["./*.ts", "src"],
+  "compilerOptions": {
+    // Environment (affects what's available in source code)
+    "lib": ["esnext"],
+    "module": "esnext",
+    "types": ["node"],
+    "moduleDetection": "force",
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "noUncheckedSideEffectImports": true,
+    "paths": {
+      "#/*": ["./src/*.ts"]
+    },
+
+    // Type Checking (affects type checking and inference)
+    "strict": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true,
+    "noFallthroughCasesInSwitch": true,
+    "noPropertyAccessFromIndexSignature": false,
+
+    // Output (handled by tsdown)
+    "noEmit": true,
+    "target": "esnext"
+  }
+}

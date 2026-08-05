@@ -1,0 +1,11 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["./src/exports/index.ts"],
+  "out": "docs",
+  "navigationLinks": {
+    "github": "https://github.com/ryangoree/typescript-boilerplate"
+  },
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true
+}
