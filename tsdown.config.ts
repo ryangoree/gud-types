@@ -1,7 +1,7 @@
 import { defineConfig } from "tsdown";
 
 export default defineConfig({
-  entry: ["src/exports/index.ts", "src/exports/testing.ts"],
+  entry: ["src/exports/index.ts"],
   format: ["esm", "cjs"],
   target: "esnext",
   minify: true,
