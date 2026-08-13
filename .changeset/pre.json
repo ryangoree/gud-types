@@ -4,5 +4,8 @@
   "initialVersions": {
     "@gud/types": "0.0.0"
   },
-  "changesets": ["small-brooms-travel"]
+  "changesets": [
+    "small-brooms-travel",
+    "some-carrots-think"
+  ]
 }
