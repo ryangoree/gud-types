@@ -1,5 +1,11 @@
 # @gud/types
 
+## 0.0.0-beta.3
+
+### Minor Changes
+
+- 69a8f80: Add `ExtractWide` type
+
 ## 0.0.0-beta.2
 
 ### Patch Changes
