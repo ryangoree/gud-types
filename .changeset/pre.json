@@ -4,5 +4,7 @@
   "initialVersions": {
     "@gud/types": "0.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "small-brooms-travel"
+  ]
 }
