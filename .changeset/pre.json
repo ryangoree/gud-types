@@ -5,6 +5,7 @@
     "@gud/types": "0.0.0"
   },
   "changesets": [
+    "famous-roses-hunt",
     "small-brooms-travel",
     "some-carrots-think"
   ]
