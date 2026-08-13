@@ -59,6 +59,7 @@ export type { GetStarting } from "#/tuples/GetStarting";
 //========================================================//
 
 export type { ExtractFiltered } from "#/unions/ExtractFiltered";
+export type { ExtractWide } from "#/unions/ExtractWide";
 export type { IsUnion } from "#/unions/IsUnion";
 export type { OneOf } from "#/unions/OneOf";
 export type { UnionKey } from "#/unions/UnionKey";
